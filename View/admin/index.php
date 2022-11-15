@@ -1,8 +1,9 @@
 <?php
+	$path_file = 'C:\xampp\htdocs\di_cho_nhanh\\';
 	session_start(); /*đăng ký phiên làm việc*/
         ob_start();
-	require '../../Config/config.php';
-	require '../../Model/Database.php';
+	require $path_file. 'Config/config.php';
+	require $path_file.'Model/Database.php';
 	$db = new Database();
 
 	/**
@@ -12,43 +13,18 @@
      */
 
 	if (!empty($_SESSION['useradmin']) && $_SESSION['useradmin']['level'] == admin) {
-		require $path_file.'header.php';
-		// require('layouts/header.php');
+		require $path_file.('View/admin/layouts/header.php');
 
 		if (isset($_GET['controller'])) {
-			require '../../Route/admin/web.php'; /*xử lý các request trong Route/web.php*/
+			require $path_file.'Route/admin/web.php'; /*xử lý các request trong Route/web.php*/
 		} else {
-			require $path_flie.'home.php';
-			// require('pages/home.php');
+			require $path_file.('View/admin/pages/home.php');
 		}
 
-		// require('layouts/footer.php');
-		require $path_file.'footer.php'; 
+		require $path_file. ('View/admin/layouts/footer.php');
 	} else {
 		header('Location: ../../');
 	}
 
-	$db->closeDatabase();
+ $db->closeDatabase();
 
-
-
-	// <?php 
-	// require $path_file.'header.php';
-
-	// if (isset($_GET['controller'])) {
-	// 	$controller = $_GET['controller'];
-	// } else {
-	// 	$controller = '';
-	// }
-
-	// switch ($controller) {
-	// 	case 'test':
-	// 		echo "trang test";
-	// 		break;
-		
-	// 	default:
-	// 		require $path_flie.'home.php';
-	// 		break;
-	// }
-
-	// require $path_file.'footer.php'; 

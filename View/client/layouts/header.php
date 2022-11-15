@@ -7,7 +7,7 @@
 <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>NewsEdge | Home 1</title>
+        <title>Đi Chợ Nhanh | Home 1</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Favicon -->
@@ -79,93 +79,6 @@
                                     <div class="ne-main-menu">
                                         <nav id="dropdown">
                                             <ul>
-                                                <li class="active">
-                                                    <a href="#">Home</a>
-                                                    <ul class="ne-dropdown-menu">
-                                                        <li class="active">
-                                                            <a href="index.html">Home 1</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index2.html">Home 2</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index3.html">Home 3</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index4.html">Home 4</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index5.html">Home 5</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index6.html">Home 6</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index7.html">Home 7</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Post</a>
-                                                    <ul class="ne-dropdown-menu">
-                                                        <li>
-                                                            <a href="post-style-1.html">Post Style 1</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="post-style-2.html">Post Style 2</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="post-style-3.html">Post Style 3</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="post-style-4.html">Post Style 4</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="single-news-1.html">News Details 1</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="single-news-2.html">News Details 2</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="single-news-3.html">News Details 3</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li>
-                                                    <a href="#">Pages</a>
-                                                    <ul class="ne-dropdown-menu">
-                                                        <li>
-                                                            <a href="author-post.html">Author Post Page</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="archive.html">Archive Page</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="gallery-style-1.html">Gallery Style 1</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="gallery-style-2.html">Gallery Style 2</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="404.html">404 Error Page</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="contact.html">Contact Page</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li>
-                                                    <a href="post-style-1.html">Politics</a>
-                                                </li>
-                                                <li>
-                                                    <a href="post-style-2.html">Business</a>
-                                                </li>
-                                                <li>
-                                                    <a href="post-style-3.html">Sports</a>
-                                                </li>
-                                                <li>
-                                                    <a href="post-style-4.html">Fashion</a>
-                                                </li>
                                             </ul>
                                         </nav>
                                     </div>
@@ -234,47 +147,8 @@
             </header>
             <!-- Header Area End Here -->
             <!-- News Feed Area Start Here -->
-            <section class="bg-accent border-bottom add-top-margin">
-                <div class="container">
-                    <div class="row no-gutters d-flex align-items-center">
-                        <div class="col-lg-2 col-md-3 col-sm-4 col-6">
-                            <div class="topic-box topic-box-margin">Top Stories</div>
-                        </div>
-                        <div class="col-lg-10 col-md-9 col-sm-8 col-6">
-                            <div class="feeding-text-dark">
-                                <ol id="sample" class="ticker">
-                                    <li>
-                                        <a href="#">McDonell Kanye West highlights difficulties for celebritiesComplimentary decor and
-                                            design advicewith Summit Park homes</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Magnificent Image Of The New Hoover Dam Bridge Taking Shape</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">If Obama Had Governed Like This in 2017 He'd Be the Transformational.</a>
-                                    </li>
-                                </ol>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
             <!-- News Feed Area End Here -->
             <!-- News Info List Area Start Here -->
-            <section class="bg-body">
-                <div class="container">
-                    <ul class="news-info-list text-center--md">
-                        <li>
-                            <i class="fa fa-map-marker" aria-hidden="true"></i>Australia</li>
-                        <li>                                
-                            <i class="fa fa-calendar" aria-hidden="true"></i><span id="current_date"></span></li>
-                        <li>
-                            <i class="fa fa-clock-o" aria-hidden="true"></i>Last Update 11.30 am</li>
-                        <li>
-                            <i class="fa fa-cloud" aria-hidden="true"></i>29&#8451; Sydney, Australia</li>
-                    </ul>
-                </div>
-            </section>
             <!-- Đăng nhập-->
             <div class="modal fade" id="myModal" role="dialog">
                 <div class="modal-dialog">
